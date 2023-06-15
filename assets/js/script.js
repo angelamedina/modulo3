@@ -68,17 +68,6 @@ function TotalGasto(nombre, gasto){
       graficar/* los que estamos agregandode contable */
    })
 
-  /*  
-   var btnGasto = document.querySelector('#gastoAdd');
-      btnGasto.addEventListener('click', (event) => {
-         if(miGasto.value != ""){
-            const td = document.createElement("td")
-            td.add("")
-            td.innerHTML= templateElement(`${miGasto.value}`)
-         }else{
-            alert("completa loscampos")
-         }
-      })*/
 
 //Obtener saldo
       var miSaldo = document.querySelector('#saldo')
@@ -92,42 +81,7 @@ function TotalGasto(nombre, gasto){
        console.log(miSaldo)
       })
 
-//Obtener lista de gastos falta
 
-
-
-
-
-
-
-
-
-//eliminar datos y nuevo saldo
-var eliminarDatos = document.querySelector('#eliminar');
-
-   var btnEliminar = document.querySelector('#gastoAdd')
-   eliminar.addEventListener('click', function(){
-   var eliminarNombre = miNombre.value
-   var eliminarNombre = document.querySelector('#nombreGasto') 
-   
-   var eliminarValor = miSaldo.value
-   var eliminarValor = document.querySelector('#gastoCantidad')
-
-   var nuevoSaldo = miGasto.value
-   var nuevoSaldo = document.querySelector('#gasto')
-
-   eliminarNombre.innerHTML = ''  + miNombre.value
-   eliminarValor.innerHTML = '' +  miSaldo.value
-   nuevoSaldo.innerHTML = '$' + (miSaldo.value + miGasto.value)
-   console.log('eliminarDatos')
-   
-   })
 
    
-    /*  
-    function eliminarPresupuesto(eliminar){
-      var presupuestoIngresado ={
-         presupuesto: presupuestoAdd,
-      }
-      eliminar.pop(presupuestoIngresado);
-   };*/
+   
